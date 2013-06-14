@@ -1,0 +1,14 @@
+CROSS_HOST="i686-pc-cygwin"
+ORIG_PN="libXdmcp"
+inherit cross xorg
+
+NAME="cygwin32-libXdmcp"
+VERSION=1.1.1
+RELEASE=1
+CATEGORY="Devel"
+SUMMARY="X.Org XDMCP library for Cygwin 32bit toolchain"
+DESCRIPTION="X.Org Display Manager Control Protocol library"
+
+CYGCONF_ARGS="--disable-docs"
+
+KEEP_LA_FILES="none"
